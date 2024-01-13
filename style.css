@@ -15,9 +15,7 @@ body {
   font-family: "Press Start 2P", sans-serif;
   color: #eee;
   background-color: #222;
-  
 }
-
 
 header {
   position: relative;
@@ -44,7 +42,6 @@ main {
   width: 52rem;
   font-size: 2rem;
 }
-
 
 h1 {
   font-size: 4rem;
@@ -116,4 +113,41 @@ h1 {
 
 .label-score {
   margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 1rem;
+  }
+
+  .number {
+    font-size: 2rem;
+  }
+
+  .between {
+    font-size: 0.5rem;
+  }
+
+  .again,
+  .btn {
+    font-size: o.5rem;
+  }
+
+  .guess {
+    font-size: 1rem;
+    width: 50%;
+  }
+  .btn {
+    border: none;
+    background-color: #eee;
+    color: #222;
+    font-size: 1rem;
+    font-family: inherit;
+    padding: 1rem 1rem;
+    cursor: pointer;
+  }
+  .right {
+    width: 60rem;
+    font-size: 1rem;
+  }
 }
